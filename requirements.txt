@@ -1,0 +1,10 @@
+scikit-learn
+pandas
+numpy
+lightgbm == 4.6.0
+matplotlib
+ipykernel
+PyYAML == 6.0.3
+tqdm == 4.67.1
+spacy == 3.8.7
+subprocess.run==0.0.8
