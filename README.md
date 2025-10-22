@@ -50,7 +50,7 @@ These features already captured relevant stylistic differences between “real�
 
 ## LLM Judgments (Used as Features)
 
-I used Grok via its API to obtain zero-shot pairwise judgments. For each text pair, I sent both texts to the model and asked which one was more likely to be the manipulated / “fake” one. The API returned a structured JSON response containing a predicted fake text ("A" or "B") and continuous scores, for example:
+I used Grok via its API to obtain zero-shot pairwise judgments, as it was freely accessible at the time of the competition. In principle, any high-capacity LLM (e.g., within the top-performing model range) should provide similar prior signals. For each text pair, I sent both texts to the model and asked which one was more likely to be the manipulated / “fake” one. The API returned a structured JSON response containing the predicted fake side ("A" or "B") along with continuous scores, e.g.:
 
 ```text
 {
