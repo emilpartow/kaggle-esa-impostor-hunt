@@ -84,7 +84,7 @@ These features already captured relevant stylistic differences between â€œrealâ€
 
 ## LLM Judgments (Used as Features)
 
-I used **Grok via its API**, as it was freely accessible during the competition. In principle, any strong LLM (ChatGPT, Claude, Gemini, etc.) could be substituted.
+I used **Grok**, as it was freely accessible during the competition. In principle, any strong LLM (ChatGPT, Claude, Gemini, etc.) could be substituted.
 
 For each pair:
 ```json
