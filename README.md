@@ -126,7 +126,7 @@ model.fit(...)
 
 A stratified validation split correlated well with leaderboard performance.
 
---
+---
 
 ## Acknowledgements
 
